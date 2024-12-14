@@ -12,7 +12,7 @@ function GastoDeCombustivel(distancia, tipo){
     else if(tipo == 2){
         contagem = distancia * consumoEtanol
     } else {
-        return `Tipo de combústivel inválido`
+        return `Tipo de combustivel inválido!`
     }
 
     return contagem;
@@ -20,5 +20,8 @@ function GastoDeCombustivel(distancia, tipo){
 
 
 
-let resultado = GastoDeCombustivel(1000, 3);
+let resultado = GastoDeCombustivel(1000,1)
 console.log(`O gasto total de combustível é: ${resultado}`);
+
+
+module.exports = {GastoDeCombustivel}
