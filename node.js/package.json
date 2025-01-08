@@ -1,12 +1,19 @@
 {
-  "scripts":{
+  "scripts": {
     "teste": "jest --coverage"
   },
-
   "dependencies": {
+    "express": "^4.21.2",
     "validator": "^13.12.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
